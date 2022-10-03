@@ -61,8 +61,5 @@ fn color_output(number: i32) -> String{
         11 => "204;83;0".to_string(),
         _ => "255;255;255".to_string()
     }
-    //print!(""\xJb[38;5;{0}mColor{0:03}\xJb[m ", color)")
-    // \xJb[38;5;{}m, color_code
-    // \xJb[0m // reset
 
 }
